@@ -21,11 +21,11 @@ Aplikasi mobile berbasis Flutter untuk membantu petani dan pemilik lahan memanta
 ## Arsitektur
 Aplikasi berjalan sepenuhnya secara lokal (client-side only) tanpa backend/server. Seluruh data disimpan pada basis data SQLite lokal, dan proses simulasi sensor serta notifikasi berjalan melalui background scheduler pada perangkat.
 
-Dokumentasi arsitektur lengkap tersedia pada Software Architecture Document (SAD) di repository ini / pada laporan tugas terkait.
+Dokumentasi arsitektur lengkap (Software Architecture Document) tersedia sebagai bagian dari tugas mata kuliah terkait.
 
 ## Cara Menjalankan
 \`\`\`bash
-git clone https://github.com/username/tanimonitor-flutter.git
+git clone https://github.com/Manalu11/tanimonitor-flutter.git
 cd tanimonitor-flutter
 flutter pub get
 flutter run
